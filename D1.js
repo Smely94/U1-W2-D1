@@ -84,6 +84,12 @@ console.log (sottrazione)
 let name1 = "john"
 let name2 = "John"
 
-console.log (name1 === name2)
+console.log (name1 === name2) // False perchè ha un caratte minuscolo e l'altro ha un carattere maiuscolo
+
+
+// EXTRA: Fatta una ricerca online ho capito che applicando la sintassi (.toLowerCase) ad una stringa tutti i caratteri diventano minuscoli.
+// Quindi come in questo caso name1 === name2 ==>true 
+
+console.log (name1.toLowerCase === name2.toLowerCase)
 
 
