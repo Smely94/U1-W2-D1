@@ -21,7 +21,6 @@ NULL: Questo datatype rappresenta l'assenza volontaria di un valore. Che possiam
 SIMBOL: Questo datatype rappresenta un entità singola ed è molot poco utilizzata.
 */
 
-
 /* ESERCIZIO 2
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
@@ -36,10 +35,10 @@ const name = "Samuele";
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let num1 = 12
-let num2 = 20
+let num1 = 12;
+let num2 = 20;
 
-console.log (num1 + num2);
+console.log(num1 + num2);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -64,16 +63,14 @@ Viene visualizzato questo errore dal browser quando provo a cambiare il valote d
 Non è possibile appunto modificare il valore di una variabile cont appunto perchè è continua!
 */
 
-
-
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let sottrazione = (4 - x)
-console.log (sottrazione) 
+let sottrazione = 4 - x;
+console.log(sottrazione);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -83,15 +80,12 @@ console.log (sottrazione)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let name1 = "john"
-let name2 = "John"
+let name1 = "john";
+let name2 = "John";
 
-console.log (name1 === name2) // False perchè ha un caratte minuscolo e l'altro ha un carattere maiuscolo
-
+console.log(name1 === name2); // False perchè ha un caratte minuscolo e l'altro ha un carattere maiuscolo
 
 // EXTRA: Fatta una ricerca online ho capito che applicando la sintassi (.toLowerCase) ad una stringa tutti i caratteri diventano minuscoli.
-// Quindi come in questo caso name1 === name2 ==>true 
+// Quindi come in questo caso name1 === name2 ==>true
 
-console.log (name1.toLowerCase === name2.toLowerCase)
-
-
+console.log(name1.toLowerCase === name2.toLowerCase);
