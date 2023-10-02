@@ -36,8 +36,10 @@ const name = "Samuele";
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let addizione = 12 + 20;
-console.log (addizione);
+let num1 = 12
+let num2 = 20
+
+console.log (num1 + num2);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
