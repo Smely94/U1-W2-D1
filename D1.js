@@ -88,4 +88,4 @@ console.log(name1 === name2); // False perchè ha un caratte minuscolo e l'altro
 // EXTRA: Fatta una ricerca online ho capito che applicando la sintassi (.toLowerCase) ad una stringa tutti i caratteri diventano minuscoli.
 // Quindi come in questo caso name1 === name2 ==>true
 
-console.log(name1.toLowerCase === name2.toLowerCase);
+console.log(name1.toLowerCase() === name2.toLowerCase());
